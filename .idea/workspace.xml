@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae953fd7-b83c-4ef5-a2b2-09f4f927cf3d" name="Changes" comment="Archivo">
-      <changelist_data name="Karen" email="" />
+      <change afterPath="$PROJECT_DIR$/src/Imagenes/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vista/VistaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vista/VistaPrincipal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +51,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Estructuras/StructureProjectG6",
+    "last_opened_file_path": "C:/Users/karen/IdeaProjects/StructureProjectG6",
     "settings.editor.selected.configurable": "configurable.group.appearance"
   },
   "keyToStringList": {
@@ -59,6 +69,14 @@
       <option name="presentableId" value="Default" />
       <updated>1679430121001</updated>
     </task>
+    <task id="LOCAL-00001" summary="Archivo">
+      <created>1679446157356</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679446157356</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
