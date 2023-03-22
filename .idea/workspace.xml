@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae953fd7-b83c-4ef5-a2b2-09f4f927cf3d" name="Changes" comment="Imagenes">
+    <list default="true" id="ae953fd7-b83c-4ef5-a2b2-09f4f927cf3d" name="Changes" comment="Diseño de la pagina de inicio">
+      <change afterPath="$PROJECT_DIR$/src/Vista/VistaOperador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Imagenes/INICIO.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Imagenes/INICIO.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Imagenes/OPERADOR.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Imagenes/OPERADOR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Imagenes/SALIR.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Imagenes/SALIR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Imagenes/SALIR2.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Imagenes/SALIR2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Imagenes/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Imagenes/INICIO.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Imagenes/INICIO.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Imagenes/OPERADOR.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Imagenes/OPERADOR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Imagenes/SALIR.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Imagenes/SALIR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Imagenes/SALIR2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Imagenes/SALIR2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Imagenes/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vista/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vista/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Vista/VistaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vista/VistaPrincipal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,19 +40,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/karen/IdeaProjects/StructureProjectG6",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/karen/IdeaProjects/StructureProjectG6&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\karen\IdeaProjects\StructureProjectG6\src\Imagenes" />
@@ -103,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679448003042</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Diseño de la pagina de inicio">
+      <created>1679453989108</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679453989108</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -141,6 +133,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Archivo" />
     <MESSAGE value="Imagenes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Imagenes" />
+    <MESSAGE value="Diseño de la pagina de inicio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Diseño de la pagina de inicio" />
   </component>
 </project>

@@ -45,7 +45,7 @@ public class VistaPrincipal extends JFrame {
 
         //boton de inicio
 
-        botonIniciar = new JButton("Iniciar Sesion");
+        botonIniciar = new JButton("ENTRAR");
         botonIniciar.setBounds(600, 570, 230, 80);
         ImageIcon img= new ImageIcon("src/Imagenes/INICIO.png");// se le pone icono a boton
         Icon i= new ImageIcon(img.getImage().getScaledInstance(botonIniciar.getWidth(), botonIniciar.getHeight(), Image.SCALE_DEFAULT));
@@ -62,10 +62,12 @@ public class VistaPrincipal extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 panelInicio.setVisible(false);
-                panelModulos();
-                panelBlanco.setVisible(true);
+                fondo.setOpaque(false);
                 fondo.setVisible(false);
+                panelModulos();
                 panelModulos.setVisible(true);
+                panelBlanco.setVisible(true);
+
                 contenedor.add(botonAdmin,Integer.valueOf(3));
                 contenedor.add(botonOperador,Integer.valueOf(3));
                 contenedor.add(botonRepartidor,Integer.valueOf(3));
@@ -77,7 +79,7 @@ public class VistaPrincipal extends JFrame {
         panelInicio.add(botonIniciar);
 
         botonSalir = new JButton("Salir");
-        botonSalir.setBounds(1000, 600, 200, 70);
+        botonSalir.setBounds(1100, 600, 200, 70);
         //botonReglas.setFont(new Font("BeaufortforLOL-Bold", Font.ITALIC, 12));
         ImageIcon imgSalir3= new ImageIcon("src/Imagenes/SALIR.png");// se le pone icono a boton
         Icon iconSalir= new ImageIcon(imgSalir3.getImage().getScaledInstance(botonSalir.getWidth(), botonSalir.getHeight(), Image.SCALE_DEFAULT));
@@ -113,6 +115,13 @@ public class VistaPrincipal extends JFrame {
         Color colo1=new Color(255,245,238);
         //panelModulos.setBackground();
         this.add(panelModulos);
+
+        JLabel modulo=new JLabel("Modulo");
+        modulo.setBounds(250,0,300,150);
+        ImageIcon imgmod= new ImageIcon("src/Imagenes/MODULO.png");// se le pone icono a boton
+        Icon imod= new ImageIcon(imgmod.getImage().getScaledInstance(modulo.getWidth(), modulo.getHeight(), Image.SCALE_DEFAULT));
+        modulo.setIcon(imod);
+        panelModulos.add(modulo);
 
         botonAdmin = new JButton("Aministrador");
         botonAdmin.setBounds(100, 300, 300, 300);
@@ -227,7 +236,6 @@ public class VistaPrincipal extends JFrame {
         contenedor.add(panelBlanco,Integer.valueOf(0));
         contenedor.add(fondo,Integer.valueOf(1));
         contenedor.add(panelInicio,Integer.valueOf(2));
-
 
 
         this.getContentPane().add(contenedor);
