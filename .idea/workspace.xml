@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae953fd7-b83c-4ef5-a2b2-09f4f927cf3d" name="Changes" comment="Diseño vista de login operador- admin y cocina">
-      <change afterPath="$PROJECT_DIR$/src/Vista/Bordes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vista/VistaOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vista/VistaOperador.java" afterDir="false" />
-    </list>
+    <list default="true" id="ae953fd7-b83c-4ef5-a2b2-09f4f927cf3d" name="Changes" comment="Diseño vista de login operador- admin y cocina" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679545639044</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Diseño vista de login operador- admin y cocina">
+      <created>1679547105210</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679547105210</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
