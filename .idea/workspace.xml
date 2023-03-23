@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae953fd7-b83c-4ef5-a2b2-09f4f927cf3d" name="Changes" comment="Diseño vista de modulos">
-      <change afterPath="$PROJECT_DIR$/src/Vista/VistaAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vista/VistaCocina.java" afterDir="false" />
+    <list default="true" id="ae953fd7-b83c-4ef5-a2b2-09f4f927cf3d" name="Changes" comment="Diseño vista de login operador- admin y cocina">
+      <change afterPath="$PROJECT_DIR$/src/Vista/Bordes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Imagenes/loginOperador.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Imagenes/loginOperador.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Imagenes/logoPerrito.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Imagenes/logoPerrito.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vista/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vista/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Vista/VistaOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vista/VistaOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vista/VistaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vista/VistaPrincipal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679460525748</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Diseño vista de login operador- admin y cocina">
+      <created>1679545639044</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679545639044</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -179,6 +175,7 @@
     <MESSAGE value="Imagenes" />
     <MESSAGE value="Diseño de la pagina de inicio" />
     <MESSAGE value="Diseño vista de modulos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Diseño vista de modulos" />
+    <MESSAGE value="Diseño vista de login operador- admin y cocina" />
+    <option name="LAST_COMMIT_MESSAGE" value="Diseño vista de login operador- admin y cocina" />
   </component>
 </project>

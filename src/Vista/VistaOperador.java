@@ -2,12 +2,30 @@ package Vista;
 
 import javax.annotation.processing.RoundEnvironment;
 import javax.swing.*;
+import javax.swing.border.Border;
+import javax.swing.border.LineBorder;
 import javax.swing.plaf.BorderUIResource;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.math.RoundingMode;
 import java.nio.ByteOrder;
+
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.Image;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JLayeredPane;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.WindowConstants;
 
 public class VistaOperador extends JFrame {
 
@@ -30,6 +48,7 @@ public class VistaOperador extends JFrame {
         panelBlanco.setLayout(null);
         panelBlanco.setVisible(true);
         panelBlanco.setOpaque(true);
+        panelBlanco.setBorder(new Bordes(20));
         panelBlanco.setBounds(160,80,400,500);
         panelBlanco.setBackground(Color.white);
 
@@ -42,7 +61,6 @@ public class VistaOperador extends JFrame {
         panelBlanco.add(logo);
 
         JLabel operadorText=new JLabel("OPERADOR");
-        operadorText.setBackground(Color.black);
         operadorText.setFont(new Font("Arial", Font.BOLD, 20));
         operadorText.setBounds(130,140,200,100);
         panelBlanco.add(operadorText);
@@ -53,11 +71,13 @@ public class VistaOperador extends JFrame {
         nombreUsuario.setBounds(40,180,200,100);
         panelBlanco.add(nombreUsuario);
 
+
         JTextField txusuario=new JTextField();
         txusuario.setBackground(Color.GRAY);
-        txusuario.setBorder(null);
-        txusuario.setBounds(30,250,300,50);
+        txusuario.setBorder(BorderFactory.createLineBorder(Color.gray, 80));
+        txusuario.setBounds(30,250,300,40);
         panelBlanco.add(txusuario);
+
 
         JLabel contraseña=new JLabel("Contraseña");
         contraseña.setBackground(Color.black);
@@ -66,7 +86,9 @@ public class VistaOperador extends JFrame {
 
         JTextField txcontraseña=new JTextField();
         txcontraseña.setBackground(Color.GRAY);
-        txcontraseña.setBounds(30,360,300,50);
+        txcontraseña.setBorder(new Bordes(10));
+        txcontraseña.setBorder(BorderFactory.createLineBorder(Color.gray, 20));
+        txcontraseña.setBounds(30,360,300,40);
         panelBlanco.add(txcontraseña);
 
         JButton botonRegistrar=new JButton();
