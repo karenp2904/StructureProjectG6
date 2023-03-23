@@ -139,9 +139,12 @@ public class VistaPrincipal extends JFrame {
         botonAdmin.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                panelModulos.setVisible(false);
+                VistaAdmin JframeAdmin = new VistaAdmin();
+                JframeAdmin.setVisible(true);
+                dispose();
 
-                //  panel.setVisible(true);
+                panelModulos.setVisible(false);
+                panelInicio.setVisible(false);
 
             }
         });
@@ -163,9 +166,12 @@ public class VistaPrincipal extends JFrame {
         botonOperador.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                panelModulos.setVisible(false);
+                VistaOperador JframeOperador=new VistaOperador();
+                JframeOperador.setVisible(true);
+                dispose();
 
-                //  panel.setVisible(true);
+                panelModulos.setVisible(false);
+                panelInicio.setVisible(false);
 
             }
         });
@@ -187,9 +193,13 @@ public class VistaPrincipal extends JFrame {
         botonCocina.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                panelModulos.setVisible(false);
+                VistaCocina JframeCocina=new VistaCocina();
+                JframeCocina.setVisible(true);
+                dispose();
 
-                //  panel.setVisible(true);
+                panelModulos.setVisible(false);
+                panelInicio.setVisible(false);
+
 
             }
         });
@@ -215,6 +225,10 @@ public class VistaPrincipal extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 panelModulos.setVisible(false);
+                botonAdmin.setVisible(false);
+                botonRepartidor.setVisible(false);
+                botonCocina.setVisible(false);
+                botonOperador.setVisible(false);
 
                 //  panel.setVisible(true);
 
