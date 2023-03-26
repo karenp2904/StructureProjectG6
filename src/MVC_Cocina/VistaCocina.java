@@ -1,4 +1,4 @@
-package Vista;
+package MVC_Cocina;
 
 import javax.swing.*;
 import java.awt.*;

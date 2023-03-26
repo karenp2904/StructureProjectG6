@@ -1,6 +1,5 @@
-package Vista;
+package MVC_Cocina;
 
-import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -8,7 +7,7 @@ import java.awt.event.ActionListener;
 
 public class VistaPrincipal extends JFrame {
     //inicializando
-    JButton  botonIniciar, botonCreditos, botonSalir, botonAdmin, botonOperador, botonCocina, botonRepartidor;
+    JButton  botonIniciar, botonCreditos, botonSalir;
     JPanel panelInicio = new JPanel();
     JPanel panelBlanco = new JPanel();
     JPanel panelModulos = new JPanel();
@@ -61,6 +60,13 @@ public class VistaPrincipal extends JFrame {
         botonIniciar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                VistaCocina JframeCocina=new VistaCocina();
+                JframeCocina.setVisible(true);
+                dispose();
+
+                panelModulos.setVisible(false);
+                panelInicio.setVisible(false);
+                /*
                 panelInicio.setVisible(false);
                 fondo.setOpaque(false);
                 fondo.setVisible(false);
@@ -73,6 +79,7 @@ public class VistaPrincipal extends JFrame {
                 contenedor.add(botonRepartidor,Integer.valueOf(3));
                 contenedor.add(botonCocina,Integer.valueOf(3));
                 contenedor.add(panelModulos,Integer.valueOf(4));
+                */
 
             }
         });
@@ -105,6 +112,7 @@ public class VistaPrincipal extends JFrame {
 
     }
 
+   /*
     public void panelModulos(){
 
         //Panel que tendrá las etiquetas y botones
@@ -237,6 +245,7 @@ public class VistaPrincipal extends JFrame {
         panelModulos.add(botonRepartidor);
     }
 
+    */
 
     public void panelContenedor(){
         ImageIcon imagen =(new ImageIcon("img.png"));
