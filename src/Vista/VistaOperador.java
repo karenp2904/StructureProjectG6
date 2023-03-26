@@ -43,51 +43,52 @@ public class VistaOperador extends JFrame {
         panelRegistro();
     }
 
-    public void panelRegistro(){
+    public void panelRegistro() {
         //Panel que tendrá las etiquetas y botones
         panelBlanco.setLayout(null);
         panelBlanco.setVisible(true);
         panelBlanco.setOpaque(true);
-        panelBlanco.setBorder(new Bordes(20));
-        panelBlanco.setBounds(160,80,400,500);
+        //panelBlanco.setBorder(BorderFactory.createLineBorder(Color.black, 80));
+        panelBlanco.setBounds(160, 80, 400, 500);
         panelBlanco.setBackground(Color.white);
 
 
-        JLabel logo=new JLabel("Logo");
-        logo.setBounds(110,10,150,150);
-        ImageIcon imgLogo= new ImageIcon("src/Imagenes/logoPerrito.png");// se le pone icono a boton
-        Icon ilogo= new ImageIcon(imgLogo.getImage().getScaledInstance(logo.getWidth(), logo.getHeight(), Image.SCALE_DEFAULT));
+        JLabel logo = new JLabel("Logo");
+        logo.setBounds(110, 10, 150, 150);
+        ImageIcon imgLogo = new ImageIcon("src/Imagenes/logoPerrito.png");// se le pone icono a boton
+        Icon ilogo = new ImageIcon(imgLogo.getImage().getScaledInstance(logo.getWidth(), logo.getHeight(), Image.SCALE_DEFAULT));
         logo.setIcon(ilogo);
         panelBlanco.add(logo);
 
-        JLabel operadorText=new JLabel("OPERADOR");
+        JLabel operadorText = new JLabel("OPERADOR");
         operadorText.setFont(new Font("Arial", Font.BOLD, 20));
-        operadorText.setBounds(130,140,200,100);
+        operadorText.setBounds(130, 140, 200, 100);
         panelBlanco.add(operadorText);
 
 
-        JLabel nombreUsuario=new JLabel("Usuario");
+        JLabel nombreUsuario = new JLabel("Usuario");
         nombreUsuario.setBackground(Color.black);
-        nombreUsuario.setBounds(40,180,200,100);
+        nombreUsuario.setBounds(40, 180, 200, 100);
         panelBlanco.add(nombreUsuario);
 
 
-        JTextField txusuario=new JTextField();
-        txusuario.setBackground(Color.GRAY);
-        txusuario.setBorder(BorderFactory.createLineBorder(Color.gray, 80));
-        txusuario.setBounds(30,250,300,40);
+        JTextField txusuario = new JTextField();
+        txusuario.setBackground(Color.white);
+       // txusuario.setBorder(BorderFactory.createLineBorder(Color.gray, 80));
+        txusuario.setBounds(30, 250, 300, 40);
+        // txusuario.setBorder(new Bordes(12));
         panelBlanco.add(txusuario);
 
 
-        JLabel contraseña=new JLabel("Contraseña");
+        JLabel contraseña = new JLabel("Contraseña");
         contraseña.setBackground(Color.black);
-        contraseña.setBounds(40,290,200,100);
+        contraseña.setBounds(40, 290, 200, 100);
         panelBlanco.add(contraseña);
 
-        JTextField txcontraseña=new JTextField();
-        txcontraseña.setBackground(Color.GRAY);
-        txcontraseña.setBorder(new Bordes(10));
-        txcontraseña.setBorder(BorderFactory.createLineBorder(Color.gray, 20));
+        JTextField txcontraseña = new JTextField();
+        txcontraseña.setBackground(Color.white);
+       // txcontraseña.setBorder(new Bordes(30));
+        // txcontraseña.setBorder(BorderFactory.createLineBorder(Color.gray, 20));
         txcontraseña.setBounds(30,360,300,40);
         panelBlanco.add(txcontraseña);
 

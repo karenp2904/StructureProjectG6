@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae953fd7-b83c-4ef5-a2b2-09f4f927cf3d" name="Changes" comment="Diseño vista de login operador- admin y cocina" />
+    <list default="true" id="ae953fd7-b83c-4ef5-a2b2-09f4f927cf3d" name="Changes" comment="Revisar bordes de paneles">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vista/VistaOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vista/VistaOperador.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679547105210</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Revisar bordes de paneles">
+      <created>1679579107448</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679579107448</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Revisar bordes de paneles">
+      <created>1679579112847</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679579112847</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -179,6 +196,7 @@
     <MESSAGE value="Diseño de la pagina de inicio" />
     <MESSAGE value="Diseño vista de modulos" />
     <MESSAGE value="Diseño vista de login operador- admin y cocina" />
-    <option name="LAST_COMMIT_MESSAGE" value="Diseño vista de login operador- admin y cocina" />
+    <MESSAGE value="Revisar bordes de paneles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revisar bordes de paneles" />
   </component>
 </project>
