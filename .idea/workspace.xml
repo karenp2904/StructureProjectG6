@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae953fd7-b83c-4ef5-a2b2-09f4f927cf3d" name="Changes" comment="Posible organizacion del proyecto">
-      <change afterPath="$PROJECT_DIR$/src/MVC_Repartidor/VistaRepartidor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MVC_Operador/MainOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC_Operador/MainOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MVC_Operador/VistaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC_Operador/VistaPrincipalOpera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MVC_Repartidor/MainRepartidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC_Repartidor/MainRepartidor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MVC_Repartidor/VistaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC_Repartidor/VistaPrincipalRepartidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCocina/Cocina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloOperador/Operador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloRepartidor/Repartidor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679547105210</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Posible organizacion del proyecto">
+      <created>1680189175243</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680189175243</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -190,6 +195,7 @@
     <MESSAGE value="Diseño de la pagina de inicio" />
     <MESSAGE value="Diseño vista de modulos" />
     <MESSAGE value="Diseño vista de login operador- admin y cocina" />
-    <option name="LAST_COMMIT_MESSAGE" value="Diseño vista de login operador- admin y cocina" />
+    <MESSAGE value="Posible organizacion del proyecto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Posible organizacion del proyecto" />
   </component>
 </project>
