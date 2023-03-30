@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae953fd7-b83c-4ef5-a2b2-09f4f927cf3d" name="Changes" comment="Revisar bordes de paneles">
-      <change afterPath="$PROJECT_DIR$/src/MVC_Cocina/VistaPrincipal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC_Operador/MainOperador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC_Repartidor/MainRepartidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC_Repartidor/VistaAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MVC_Repartidor/VistaPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaCocina$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaCocina.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaOperador$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaOperador$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaOperador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaOperador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StructureProjectG6/Vista/VistaPrincipal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vista/Bordes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bordes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vista/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC_Cocina/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vista/VistaAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC_Cocina/VistaAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vista/VistaCocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC_Cocina/VistaCocina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vista/VistaOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC_Operador/VistaOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vista/VistaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC_Operador/VistaPrincipal.java" afterDir="false" />
-    </list>
+    <list default="true" id="ae953fd7-b83c-4ef5-a2b2-09f4f927cf3d" name="Changes" comment="Diseño vista de login operador- admin y cocina" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,11 +55,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MVC_Cocina.Main" />
+      <option name="MAIN_CLASS_NAME" value="Vista.Main" />
       <module name="StructureProjectG6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MVC_Cocina.*" />
+          <option name="PATTERN" value="Vista.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,28 +138,7 @@
       <option name="project" value="LOCAL" />
       <updated>1679547105210</updated>
     </task>
-    <task id="LOCAL-00009" summary="Revisar bordes de paneles">
-      <created>1679579107448</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1679579107448</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Revisar bordes de paneles">
-      <created>1679579112847</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1679579112847</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Revisar bordes de paneles">
-      <created>1679798329713</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1679798329716</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -225,7 +179,6 @@
     <MESSAGE value="Diseño de la pagina de inicio" />
     <MESSAGE value="Diseño vista de modulos" />
     <MESSAGE value="Diseño vista de login operador- admin y cocina" />
-    <MESSAGE value="Revisar bordes de paneles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revisar bordes de paneles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Diseño vista de login operador- admin y cocina" />
   </component>
 </project>
