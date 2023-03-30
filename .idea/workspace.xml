@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae953fd7-b83c-4ef5-a2b2-09f4f927cf3d" name="Changes" comment="Diseño vista de login operador- admin y cocina" />
+    <list default="true" id="ae953fd7-b83c-4ef5-a2b2-09f4f927cf3d" name="Changes" comment="Posible organizacion del proyecto">
+      <change afterPath="$PROJECT_DIR$/src/MVC_Repartidor/VistaRepartidor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVC_Operador/MainOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC_Operador/MainOperador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVC_Operador/VistaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC_Operador/VistaPrincipalOpera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVC_Repartidor/MainRepartidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC_Repartidor/MainRepartidor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVC_Repartidor/VistaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC_Repartidor/VistaPrincipalRepartidor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +57,11 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\karen\IdeaProjects\StructureProjectG6\src\Imagenes" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="MVC_Repartidor" />
+      <recent name="MVC_Operador" />
+      <recent name="MVC_Cocina" />
     </key>
   </component>
   <component name="RunManager">

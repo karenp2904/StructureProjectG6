@@ -1,10 +1,8 @@
 package MVC_Repartidor;
 
-import MVC_Cocina.VistaPrincipal;
-
 public class MainRepartidor {
     public static void main(String[] args) {
-        MVC_Cocina.VistaPrincipal vista = new VistaPrincipal();
+        VistaPrincipalRepartidor vista = new VistaPrincipalRepartidor();
         // VistaOperador operacdor=new VistaOperador();
     }
 }

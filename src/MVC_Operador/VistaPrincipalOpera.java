@@ -1,13 +1,11 @@
 package MVC_Operador;
 
-import MVC_Cocina.VistaCocina;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class VistaPrincipal extends JFrame {
+public class VistaPrincipalOpera extends JFrame {
     //inicializando
     JButton  botonIniciar, botonCreditos, botonSalir;
     JPanel panelInicio = new JPanel();
@@ -16,7 +14,7 @@ public class VistaPrincipal extends JFrame {
     JLabel fondo = new JLabel();
     JLayeredPane contenedor=new JLayeredPane();
 
-    public VistaPrincipal() {
+    public VistaPrincipalOpera() {
         this.setTitle("Hot Dogs Palace");
         this.setExtendedState(MAXIMIZED_BOTH);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -62,27 +60,12 @@ public class VistaPrincipal extends JFrame {
         botonIniciar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                VistaCocina JframeCocina=new VistaCocina();
-                JframeCocina.setVisible(true);
+                VistaOperador JframeOperador=new VistaOperador();
+                JframeOperador.setVisible(true);
                 dispose();
 
                 panelModulos.setVisible(false);
                 panelInicio.setVisible(false);
-                /*
-                panelInicio.setVisible(false);
-                fondo.setOpaque(false);
-                fondo.setVisible(false);
-                panelModulos();
-                panelModulos.setVisible(true);
-                panelBlanco.setVisible(true);
-
-                contenedor.add(botonAdmin,Integer.valueOf(3));
-                contenedor.add(botonOperador,Integer.valueOf(3));
-                contenedor.add(botonRepartidor,Integer.valueOf(3));
-                contenedor.add(botonCocina,Integer.valueOf(3));
-                contenedor.add(panelModulos,Integer.valueOf(4));
-                */
-
             }
         });
         panelInicio.add(botonIniciar);

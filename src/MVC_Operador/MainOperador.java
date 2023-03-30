@@ -1,10 +1,8 @@
 package MVC_Operador;
 
-import MVC_Cocina.VistaPrincipal;
-
 public class MainOperador {
     public static void main(String[] args) {
-       MVC_Cocina.VistaPrincipal vista= new VistaPrincipal();
+     VistaPrincipalOpera vista= new VistaPrincipalOpera();
        // VistaOperador operacdor=new VistaOperador();
     }
 }
